@@ -1,0 +1,62 @@
+body {
+	font-family: "Helvetica Neue";
+	margin: 0 auto;
+	width: 80%;
+	vertical-align: top;
+}
+
+#left {
+	float: left;
+	width: 30%;
+	margin-right: -8%;
+/*	border: 1px solid black;*/
+}
+
+#right {
+	float: left;
+	width: 60%;
+	padding-right: 10%;
+/*	border: 1px solid black;*/
+}
+
+.repo-link {
+	text-decoration: none;
+	font-size: 20px;
+	color: #4078c0;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: 300;
+	color: #767676;
+}
+
+hr {
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+img {
+	width: 80%;
+	border-radius: 5px;
+}
+
+li {
+	list-style-type: none;
+	padding: 10px 80px 0px 0px;
+	border: 1px solid black;
+	text-align: left;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 400;
+}
