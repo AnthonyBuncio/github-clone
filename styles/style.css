@@ -6,17 +6,47 @@ body * {
 	box-sizing: border-box;
 }
 
-#left {
-	display: inline-block;
-/*	width:25%;
-	border: 1px solid red;*/
+.container {
+	width:80%;
+	margin: 0 auto;
+	padding:30px;
+/*	border: 1px solid black;*/
 }
 
-#right {
+.email,.blog {
+	text-decoration: none;
+	color: #4078c0;
+	font-size: 14px;
+}
+
+.language {
+	font-size: 12px;
+}
+
+.left {
 	display: inline-block;
-	width: 74%;
+/*	width:25%;*/
+/*	border: 1px solid red;*/
+}
+
+.right {
+	position: relative;
+	display: inline-block;
+	width: 70%;
 	padding-left:20px;
 /*	border: 1px solid red;*/
+}
+
+.searchBar {
+	position: absolute;
+	left: 50%;
+	top: 8px;
+	transform: translate(-50%,-50%);
+	width: 250px;
+    height: 30px;
+    border-color: transparent transparent #4078c0 transparent;
+    color: gray;
+    font-size: 1.2em;
 }
 
 .repo-link {
@@ -45,8 +75,8 @@ hr {
 }
 
 img {
-	width: 232px;
-	height:232px;
+	width: 255px;
+	height:255px;
 	border-radius: 5px;
 }
 
@@ -59,13 +89,6 @@ li {
 p {
 	font-size: 14px;
 	font-weight: 400;
-}
-
-.container {
-	width:80%;
-	margin: 0 auto;
-	padding:30px;
-/*	border: 1px solid black;*/
 }
 
 ul {
