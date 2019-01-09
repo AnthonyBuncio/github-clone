@@ -1,4 +1,4 @@
-<h1>GithubAPI</h1>
+<h1>#github-clone</h1>
 
 [![npm status](https://img.shields.io/npm/v/npm.svg)](https://img.shields.io/npm/v/npm.svg)
 [![github release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://img.shields.io/github/release/qubyte/rubidium.svg)
@@ -28,8 +28,8 @@ Github clone application which shows all projects within a users repository in a
 <h2>Install && Development</h2>
 
 ```
-$ git clone https://github.com/AnthonyBuncio/githubAPI.git
-$ cd githubAPI
+$ git clone https://github.com/AnthonyBuncio/github-clone.git
+$ cd github-clone
 $ node server.js
 ```
 
